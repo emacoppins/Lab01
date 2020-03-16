@@ -28,5 +28,10 @@ public class Parole {
 		parole.removeAll(parole);
 		
 	}
-
+	public void cancel(String p) {
+		parole.remove(p);
+		
+		
+		
+	}
 }
